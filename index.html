@@ -11,8 +11,19 @@
            text-align:center;
            font-size:50px;
            color:ivory;
+           border:5px ivory;
+           border-style: outset;
+           padding:3px;
        }
-       
+
+       .para{
+           width:85%; height: 100px;overflow-y: auto;
+           border: 4px ivory;
+           border-style: solid;
+           padding: 8px;
+           margin:30px;
+           background-image:linear-gradient(#A1A1D5, #44445E);
+       }
        ul{
            font-family:"bookman old style";
            background-color:white;
@@ -20,36 +31,94 @@
        h2{
            text-align:center;
            font-family:"bookman old style";
-           font-style:oblique;
+           
            font-weight: lighter;
+           text-shadow: darkblue;
        }
        
+       .khan{
+           color:aquamarine;
+       }
+
+       #firstimage{
+           width:45%;
+         
+
+
+       }
+       #secondimage{
+           width:45%;
+       margin-left:100px;
+           
+       }
+       #container{
+           border-left: 1px solid ivory;
+           
+       }
+       #imagegallery{
+           border:5px inset purple;
+           padding: 7px
+       }
+h6{
+    background-color:slateblue;
+    color:ivory;
+    font-family:"bookman old style";
+    font-weight: bold;
+    position:fixed;
+    top:0.01px;
+    margin:none;
+    width:3000px;
+    border:ivory 1px outset;
+    opacity: 50%;
+}
+     
         </style>
         
     </head>
     <body>
         
-        <h1>Michele's programming journey</h1>
-
-    <hr>
-        <ul>
+      
+<h6>MC</h6>
+        <h1><title>MC</title>Michele's programming journey</h1>
+<div id="imagegallery">
+    <img id="firstimage" src="https://miro.medium.com/max/9024/0*Q8DDPKbl1Jek0i0a">
+    <img id="secondimage" src="https://www.thecoderpedia.com/wp-content/uploads/2019/10/MaxPixel.net-Software-Computer-Programming-Language-Source-Code-4280758.jpg">
+   </div>
+    <ul>
             <li> <a href="#first">First day</a></li>
             <li><a href="#second">Second day</a></li>
+            <li><a href="#third">Third day</a></li>
+           <li><a href="#fourth">Fourth day</a></li> 
         </ul>
-        
-       
+        <hr>  
+        <div id="container">
+       <div class="para">
        <h2 id="first">10 of March</h2>
         <h4>My first dive into HTML!</h4>
         
-        <p>I started watching Khan Academy videos and learnt smth about how HTML works. For example, I started getting accostumed with the syntax, inserting images and links(both internal and external) and I started using Visual Studio code.Furthermore, I began to use CSS selectors to change the style of my webpage, no longer reliying on inline attributes.</p>
+        <p>I started watching <span class="khan">Khan Academy</span> videos and learnt smth about how HTML works. For example, I started getting accostumed with the syntax, inserting images and links(both internal and external) and I started using Visual Studio code.Furthermore, I began to use CSS selectors to change the style of my webpage, no longer reliying on inline attributes.</p>
+       </div> 
         
-        <hr>
-        
+        <div class="para">
         <h2 id="second">11 of March</h2>
         <h4>Let's get CSSing</h4>
         
         <p>Today I dived into CSS, particulary focusing on text formatting and style using tags such as "font-family" or "line-height". I can now make a text look bolder, or change it's color and background, underline it, remove the underline from links, change the font or align it.</p>
+        </div>
         
-        
+        <div class="para">
+        <h2 id="third">12 of March</h2>
+        <h4>CSS Layout</h4>
+
+        <p>I started using div and span tags to group either parts of text or block of elements; then I modified width and height of my div blocks and set the overflow value(visible, hidden or auto). Afterwards, I started applying margins(top bottom left or right), borders(px style and colours) and paddings to blocks and images.<br>
+        Then I started using position attribute. While struggling with relative and absolute position, I immediately understood the use and the potential of fixed position.The google maps video was useful to understand the functioning of z index.</p>
+    </div>
+
+    <div class="para">
+        <h2 id="fourth">13 of March</h2>
+        <h4>More layout oprions and selectors</h4>
+        <p>
+    </div>
+    </div>
     </body>
 </html>
