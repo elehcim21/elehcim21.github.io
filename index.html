@@ -24,9 +24,11 @@
            margin:30px;
            background-image:linear-gradient(#A1A1D5, #44445E);
        }
-       ul{
-           font-family:"bookman old style";
-           background-color:white;
+   
+       
+       #list{
+    text-decoration: none;
+        background-color:whitesmoke;
        }
        h2{
            text-align:center;
@@ -53,45 +55,61 @@
        }
        #container{
            border-left: 1px solid ivory;
+           margin-top:100px;
            
        }
        #imagegallery{
            border:5px inset purple;
            padding: 7px
        }
-h6{
-    background-color:slateblue;
-    color:ivory;
-    font-family:"bookman old style";
-    font-weight: bold;
+#navbar{
     position:fixed;
-    top:0.01px;
-    margin:none;
-    width:3000px;
-    border:ivory 1px outset;
-    opacity: 50%;
+    top:0px;
+ width:100%;
+ font-size:50px;
+ background-color: midnightblue;
+ 
+ font-family: "bookman old style";
+ font-weight: bold;  
 }
-     
+#navbar a{
+    text-decoration: none;
+color:mintcream;
+text-align:center;
+padding:14px 30px;
+z-index:100;
+}
+.navbar a:hover{
+    color:red;
+}    
+
         </style>
         
     </head>
     <body>
         
       
-<h6>MC</h6>
+<div id="navbar">
+    <a href="HOME">HOME</a>
+    <a href="ABOUT">ABOUT</a>
+</div>
+
+<div id="container">
         <h1><title>MC</title>Michele's programming journey</h1>
 <div id="imagegallery">
     <img id="firstimage" src="https://miro.medium.com/max/9024/0*Q8DDPKbl1Jek0i0a">
     <img id="secondimage" src="https://www.thecoderpedia.com/wp-content/uploads/2019/10/MaxPixel.net-Software-Computer-Programming-Language-Source-Code-4280758.jpg">
    </div>
+   <div id="list">
     <ul>
             <li> <a href="#first">First day</a></li>
             <li><a href="#second">Second day</a></li>
             <li><a href="#third">Third day</a></li>
            <li><a href="#fourth">Fourth day</a></li> 
         </ul>
+      </div>
         <hr>  
-        <div id="container">
+        
        <div class="para">
        <h2 id="first">10 of March</h2>
         <h4>My first dive into HTML!</h4>
@@ -116,8 +134,9 @@ h6{
 
     <div class="para">
         <h2 id="fourth">13 of March</h2>
-        <h4>More layout oprions and selectors</h4>
-        <p>
+        <h4>More layout options and selectors</h4>
+        <p>Today I got to know the float and clear properties. With the first one I can stick images or text on a side and things will not touch them. With the clear property I can make an item not wrapping around anything.
+            Moreover,</p>
     </div>
     </div>
     </body>
