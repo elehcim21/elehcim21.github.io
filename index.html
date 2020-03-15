@@ -4,14 +4,13 @@
         <meta charset="utf-8">
         <title>MyBlog</title>
         <style>
-            #navbar{
+           #navbar{
  position:fixed;
  top:0px;
  width:100%;
  font-size:28px;
  background-color:#3ac2d8;
- font-family: "ff-meta-web-pro", sans-serif;
- opacity:75%;
+ font-family: 'Baloo 2', cursive; opacity:75%;
 border-bottom:solid white 2px;
 }
 
@@ -23,94 +22,90 @@ a:hover{
 text-decoration: none;
 color:#0d2c40;
 text-align:center;
-padding:14px 30px;
+padding-left:25px;
+padding-right:25px;
+padding-bottom: 0px;
 overflow:hidden;
 
 }
 
+.tracking-in-expand:{-webkit-animation:tracking-in-expand 3s cubic-bezier(.215,.61,.355,1.000) .5s both;animation:tracking-in-expand 3s cubic-bezier(.215,.61,.355,1.000) .5s both}
+
+ @-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
 body{
     background-color:#0d2c40;
+    font-family: 'Baloo 2', cursive;
 }
 
 #title{
-    margin-top:20px;
+
+padding-top:250px;
+padding-bottom: 250px;
     font-size:50px;
-text-align: center;
-font-family: "ff-meta-web-pro", sans-serif;
+    font-family: 'Baloo 2', cursive;
 color:white;
-height:300px;
-
-}
-#Michele-Castrezzati:hover{
-    
-    background-color:#f6efe5;
-    color:#0d2c40;
-    
-}
-#Michele-Castrezzati{
-    text-align:center;
-    
-    margin-right:auto;
+text-align: center;
 }
 
 
+#paras{
+    margin-left:12%;
+    margin-right:12%;
+}
 .para{
     padding:15px;
-    font-family:"ff-meta-web-pro", sans-serif;
+    font-family: 'Baloo 2', cursive;
+    transition:width 2s;
+    width:80%;
+}
+.para:hover{
+    width:100%;
 }
 #fourteen{
-    background-color:#3ac2d8 ;
+    background-color:#3ac2d8;
+    
  
 }
 #thirteen{
     background-color:#f15b31; 
-    float:right;   
+    float:right; 
+      
+    
 }
 #twelve{
     background-color:#f6efe5;
     clear:both;
+   
 }
 #eleven{
     background-color:#3ac2d8 ;
     float:right;
+    
 }
 #ten{
    background-color:#f15b31 ; 
-   clear:both;
+clear:both;
+   
 }
 
-#eleven:hover{
-    background-color:transparent;
-    color:white;
-}
-#ten:hover{
-    background-color:transparent;
-    color:white;
-}
-#twelve:hover{
-    background-color:transparent;
-    color:white;
-}
-#thirteen:hover{
-    background-color:transparent;
-    color:white;
-}
-#fourteen:hover{
-    background-color:transparent;
-    color:white;
+
+#contacts-bar{
+    background-color:#f6efe5 ;
+    padding:5px;
 }
 
         </style>
     </head>
         <body>
             <div id="navbar">
-                <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hgtv.com%2Fsweepstakes%2Fhgtv-dream-home%2F2020%2Fhgtv-dream-home-2020-front-yard-pictures&psig=AOvVaw0HT0sEMJRHk1sLn1XwEtsU&ust=1584270102778000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNij0JjomegCFQAAAAAdAAAAABAD">HOME</a>
+                <a href="#title">HOME</a>
                 <a href="#about">ABOUT</a>
                 <a href="#contacts">CONTACTS</a>
             </div>
 
             <div id="title">
-                <h1 id="Michele-Castrezzati">Michele Castrezzati</h1>
+                <h1 class="tracking-in-expand">Michele Castrezzati</h1>
             </div>
 
             
@@ -174,7 +169,7 @@ height:300px;
         
 
        <div id="contacts-bar">
-           <p id="contacts"><span id="CONTACTS">CONTACTS:</span>email: castrezzatimichele@gmail.com | tel: 3476798196</p>
+           <p id="contacts"><strong>CONTACTS:</strong> email: castrezzatimichele@gmail.com      |      tel: 3476798196</p>
        </div> 
         </body>
         </html>
