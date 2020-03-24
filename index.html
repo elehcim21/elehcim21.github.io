@@ -2,201 +2,56 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>MyBlog</title>
-                <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
-
-        <style>
-            #navbar{
- position:fixed;
- top:0px;
- width:100%;
- font-size:28px;
- font-family: 'Baloo 2', cursive; opacity:75%;
-border-bottom:solid white 2px;
-}
-
-#navbar a{
-text-decoration: none;
-color:#f6efe5;
-text-align:center;
-padding-left:25px;
-padding-right:25px;
-padding-bottom: 0px;
-overflow:hidden;
-}
-
-a:hover{
-    background-color:#0d2c40;
-    
-}
-.slide-in-right{-webkit-animation:slide-in-right 3s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right 3s cubic-bezier(.25,.46,.45,.94) both}
- @-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
-.text-focus-in{-webkit-animation:text-focus-in 2s cubic-bezier(.55,.085,.68,.53) 1.8s both;animation:text-focus-in 2s cubic-bezier(.55,.085,.68,.53) 1.8s both}
- @-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
-.tracking-in-expand-fwd{-webkit-animation:tracking-in-expand-fwd 4s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd 4s cubic-bezier(.215,.61,.355,1.000) both}
-@-webkit-keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
-
-body{
-    background-color: #0d2c40;
-    margin:0;
-    font-family: 'Baloo 2', cursive;
-}
-
-.title{
-    background-image:url(https://i.stack.imgur.com/90nGa.jpg);
-padding-top:100px;
-padding-bottom: 300px;
-    font-size:55px;
-    font-family: 'Baloo 2', cursive;
-color:white;
-text-align: center;
-border-bottom:0.6px solid white;
-
-margin-bottom:10px;
-}
-#subtitle{
-    font-size:43px;
-    font-family: 'Baloo 2', cursive;
-    font-weight: lighter;
-color:white;
-text-align: center;
-}
-
-#paras{
-    margin-left:12%;
-    margin-right:12%; 
-}
-.para{
-    padding:15px;
-    font-family: 'Baloo 2', cursive;
-    border-top:0.5px solid white;
-    
-    margin:5px;
-    width:80%;
-    color:white;
-}
-
-
-#fifteen{
-   
-    float:right;   
-}
-#fourteen{
-    
-    clear:both;
-}
-#thirteen{
-    
-    float:right;   
-}
-#twelve{
-  
-    clear:both;  
-}
-#eleven{
-    
-    float:right;   
-}
-#ten{
-   color:white;
-clear:both;
-
-}
-
-
-footer{
-    margin-top:5px;
-    border-top:0.5px solid white;
-color:#f6efe5 ;
-    padding:5px;
-}
-        </style>
-    </head>
+        <title>GEOINSIDE</title>
+        <link href="geography.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+        <meta name="viewport"
+              content="width=device=width, initial-scale=1.0"> 
+        </head>
         <body>
-             <div id="navbar" class="slide-in-right">
+
+
+            <div class="menu-icon" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="navbar">
                 <a href="#title">HOME</a>
                 <a href="#about">ABOUT</a>
                 <a href="#contacts">CONTACTS</a>
             </div>
+<div class="title">
+    <h1>GEO INSIDE</h1>
+</div>
+<div class="main">
+    <h2 class="subtitle">The world is too big to ignore it</h2>
 
-            <div class="title">
-                <h1 class="tracking-in-expand-fwd">Michele Castrezzati</h1>
-                <h2 class="text-focus-in" id="subtitle">Scroll down to discover my programming journey!</h2>
+    <div class="Row">
+        <div class="Column"><span class="columntitle">Articles</span>
+            <img  class="image" src="https://www.jacadatravel.com/wp-content/uploads/fly-images/261353/tufi-canoe-1600x700-cc.jpg">
+            
             </div>
-            
 
-           
-            
-<div id="paras">
 
-    <div class="para" id="fifteen">
-        <h2 class="para-date">15 03</h2>
-        <h4 class="para-subtitle">Animate it!</h4>
-        <p class="blog-para">Today I discovered Animista.com, a website that provides animations in CSS code. Moreover, I added some animations 
-            by myself such as the transition widening of the paragraphs.
-        </p>
+        <div class="Column"><span class="columntitle">DYK quick facts</span>
+            <img  class="image" src="https://www.jacadatravel.com/wp-content/uploads/fly-images/261353/tufi-canoe-1600x700-cc.jpg">
         
+        </div>
+
+        <div class="Column"><span class="columntitle">Useful stuff</span>
+        
+            <img  class="image" src="https://www.jacadatravel.com/wp-content/uploads/fly-images/261353/tufi-canoe-1600x700-cc.jpg">
+        </div>
     </div>
 
-
-    <div class="para" id="fourteen">
-        <h2 class="para-date">14 03</h2>
-        <h4 class="para-subtitle">Deep into selectors</h4>
-        <p class="blog-para">When things get more complicated and you have to arrange more and more elements
-    you need to have more specific selectors. You can give two or more class to a single element by adding a space, you can also style only
-    one kind of elements with the same class by adding the html tag before the .class-name in CSS.
-        </p>
-        
-    </div>
-
-<div class="para" id="thirteen">
-    <h2 class="para-date">13 03</h2>
-    <h4 class="para-subtitle">More layout properties</h4>
-    <p class="blog-para">Today I got to know the float and clear properties.
-        They allow me to move things around without them wrapping around elements or overlapping. 
-        Moreover, I designed the layout of my
-    blog on paper for the first time.</p>
-    
 </div>
 
-<div class="para" id="twelve">
-    <h2 class="para-date">12 03</h2>
-    <h4 class="para-subtitle">CSS layout</h4>
-    <p class="blog-para">I started using div and span tags to group either parts of text or block of elements; 
-        then I modified width and height of my div blocks and set the overflow value(visible, hidden or auto). 
-        Afterwards, I started applying margins(top bottom left or right), borders(px style and colours) and paddings to blocks and images.
-    Then I started using position attribute. While struggling with relative and absolute position,
-     I immediately understood the use and the potential of fixed position.The google maps video was useful to understand 
-     the functioning of z index.</p>
-</div>
-
-<div class="para" id="eleven">
-    <h2 class="para-date">11 03</h2>
-    <h4 class="para-subtitle">Let's get CSSing</h4>
-    <p class="blog-para">Today I dived into CSS, particulary focusing on text formatting and style using tags such as
-         "font-family" or "line-height". 
-        I can now make a text look bolder, or change it's color and background, underline it, remove the underline from links, 
-        change the font or align it</p>
-</div>
-
-<div class="para" id="ten">
-    <h2 class="para-date">10 03</h2>
-    <h4 class="para-subtitle">My first dive into HTML!</h4>
-    <p class="blog-para">I started watching videos and learnt smth about how HTML works.
-        For example, I started getting accostumed with the syntax, inserting images and links(both internal and external) 
-        and I started using Visual Studio code. Furthermore, I began to use CSS selectors to change the style of my webpage,
-         no longer reliying on inline attributes.</p>
-</div>
-
-</div>
-
-
-
-        
-
-       <footer>
-           <p id="contacts"><strong>CONTACTS:</strong> email: castrezzatimichele@gmail.com      |      tel: 3476798196</p>
-       </footer> 
-
-        </body>
-        </html>
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+            
+     </body>
